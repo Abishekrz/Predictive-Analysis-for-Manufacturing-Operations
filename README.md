@@ -8,3 +8,11 @@ This API predicts machine downtime based on manufacturing data such as temperatu
    ```bash
    git clone https://github.com/yourusername/repo-name.git
    cd repo-name
+
+## Testing Api locally
+
+1. Go to Postman Web and log in.
+2. Create a POST request to http://127.0.0.1:5000/predict.
+3. In the Body section, select raw and choose JSON format.
+4. Add the following test data from test_data.json
+5. Click Send and check the response.
